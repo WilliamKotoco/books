@@ -70,7 +70,7 @@ public class Play{
 
         Thread.sleep(1000);
         }
-        if(player.currentMoney < 1000)
+        if(player.currentMoney < -1000)
             System.out.println("You got killed due your debt with the cassino");
     }
     private static int displayInfo(Player player)
